@@ -1,0 +1,33 @@
+{
+  "name": "Avalith-challenge2-NodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusahumada/Avalith-challenge2-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "Agustina Ahumada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusahumada/Avalith-challenge2-NodeJS/issues"
+  },
+  "homepage": "https://github.com/agusahumada/Avalith-challenge2-NodeJS#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
